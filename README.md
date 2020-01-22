@@ -13,6 +13,8 @@ You should first make sure the test suite is running correctly by running `learn
 Upon the first run of the test suite you should see:
 
 ```
+
+
 Failures:
 
   1) ./variable.rb defined a local variable called greeting and set it equal to 'Hello World'
@@ -26,7 +28,7 @@ Failures:
 Finished in 0.00075 seconds (files took 0.0839 seconds to load)
 1 example, 1 failure
 ```
-
+('./variable.rb', "greeting")
 To solve this test failure, create a local variable `greeting` in the `variable.rb` file. Set `greeting` equal to the string `"Hello World"`. Run `learn` to see if you did this correctly.
 
 ## Resources
